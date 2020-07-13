@@ -271,18 +271,18 @@ a{
 /* Tablet - Portrait */
 @media only screen and (min-width: 700px) and (max-width: 800px) and (orientation: portrait) {
     .menu-button {
-        display: block
+        display: block;
     }
-    .list=menu {
+    .list-menu {
         display: none;
     }
 }
 /* Tablet - Landscape */
 @media only screen and (min-width: 800px) and (max-width: 1024px) and (orientation: landscape) {
     .menu-button {
-        display: block
+        display: block;
     }
-    .list=menu {
+    .list-menu {
         display: none;
     }
 }
