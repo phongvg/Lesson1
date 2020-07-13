@@ -251,38 +251,38 @@ a{
 /* Responsive */
 /* Mobile - portrait */
 @media only screen and (min-width: 300px) and (max-width: 420px) and (orientation: portrait) {
-    .menu-button {
-        display: block
+    .header .header-top .header__menu .menu-button {
+        display: block;
     }
-    .list=menu {
+    .header .header-top .header__menu .list-menu {
         display: none;
     }
 }
 /* Mobile - landscape */
 @media only screen and (min-width: 400px) and (max-width: 750px) and (orientation: landscape) {
-    .menu-button {
-        display: block
+    .header .header-top .header__menu .menu-button {
+        display: block;
     }
-    .list=menu {
+    .header .header-top .header__menu .list-menu {
         display: none;
     }
 }
 
 /* Tablet - Portrait */
 @media only screen and (min-width: 700px) and (max-width: 800px) and (orientation: portrait) {
-    .menu-button {
+    .header .header-top .header__menu .menu-button {
         display: block;
     }
-    .list-menu {
+    .header .header-top .header__menu .list-menu {
         display: none;
     }
 }
 /* Tablet - Landscape */
 @media only screen and (min-width: 800px) and (max-width: 1024px) and (orientation: landscape) {
     .menu-button {
-        display: block;
+        display: block
     }
-    .list-menu {
+    .header .header-top .header__menu .list-menu {
         display: none;
     }
 }
